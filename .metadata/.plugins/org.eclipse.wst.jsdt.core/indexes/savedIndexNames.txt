@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\VITA_J2EE\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+320057004.index
+3603808032.index
+2392664170.index
+2665312357.index
+181077891.index
+976588700.index

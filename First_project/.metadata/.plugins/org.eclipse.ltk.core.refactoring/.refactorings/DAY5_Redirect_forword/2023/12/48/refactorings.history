@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DAY5_Redirect_forword/src/main/java/forwordingserv.java&apos; to &apos;Forwordingserv.java&apos;" description="Rename resource &apos;forwordingserv.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/forwordingserv.java" name="Forwordingserv.java" stamp="1701489222245" updateReferences="true"/>
+</session>

@@ -1,0 +1,25 @@
+INDEX VERSION 1.4+D:\VITA_J2EE\First_project\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2010393596.index
+2335480856.index
+661322499.index
+2586538933.index
+1016039824.index
+3689519981.index
+2737393112.index
+4273927032.index
+456208716.index
+403884303.index
+1578300652.index
+1114292677.index
+1237064481.index
+3653983636.index
+632434917.index
+2513950044.index
+428185955.index
+2591899883.index
+2126834807.index
+1345999010.index
+315382325.index
+3626727418.index
+898738835.index
+2546535380.index

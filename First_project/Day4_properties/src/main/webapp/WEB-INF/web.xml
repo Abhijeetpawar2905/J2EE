@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>Day4_properties</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>myserve1</display-name>
+    <servlet-name>myserve1</servlet-name>
+    <servlet-class>myserve1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>myserve1</servlet-name>
+    <url-pattern>/myserve1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>myserve</display-name>
+    <servlet-name>myserve</servlet-name>
+    <servlet-class>myserve</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>myserve</servlet-name>
+    <url-pattern>/myserve</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>serve1</display-name>
+    <servlet-name>serve1</servlet-name>
+    <servlet-class>serve1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>serve1</servlet-name>
+    <url-pattern>/serve1</url-pattern>
+  </servlet-mapping>
+</web-app>

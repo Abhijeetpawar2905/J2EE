@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>Day6_Filter</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>loginserv</display-name>
+    <servlet-name>loginserv</servlet-name>
+    <servlet-class>loginserv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginserv</servlet-name>
+    <url-pattern>/loginserv</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <display-name>FirstFilter</display-name>
+    <filter-name>FirstFilter</filter-name>
+    <filter-class>mypack.FirstFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>FirstFilter</filter-name>
+    <url-pattern>/FirstFilter</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>FirstFilter</filter-name>
+    <servlet-name>loginserv</servlet-name>
+    <dispatcher>REQUEST</dispatcher>
+  </filter-mapping>
+</web-app>

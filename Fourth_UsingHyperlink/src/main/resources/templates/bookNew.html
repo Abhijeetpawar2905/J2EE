@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Form</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('your-background-image.jpg'); /* Add the path to your background image */
+            background-size: cover;
+            background-position: center;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px; /* Adjust the width as needed */
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table, th, td {
+            border-collapse: collapse;
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 16px); /* Adjust the width as needed */
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form th:action="@{/book}" method="post">
+        <table>
+            <tr>
+                <td>Enter Name</td>
+                <td><input type="text" name="bookname" /></td>
+            </tr>
+            <tr>
+                <td>Enter Price</td>
+                <td><input type="text" name="price" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

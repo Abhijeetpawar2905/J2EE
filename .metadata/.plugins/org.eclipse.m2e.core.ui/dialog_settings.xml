@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Demo3"/>
+			<item value="Demo_2"/>
+			<item value="demo_4"/>
+			<item value="Demo_database"/>
+			<item value="day15_demo2"/>
+			<item value="Day15_Logging_demo1"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Demo3"/>
+			<item value="Demo_2"/>
+			<item value="demo_4"/>
+			<item value="Demo_database"/>
+			<item value="day15_demo2"/>
+			<item value="Day15_Logging_demo1"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>
